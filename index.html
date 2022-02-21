@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Document</title>
+
+</head>
+<body>
+    <nav class="navbar">
+         <h1 class="logo">Vintage Car</h1>
+         <ul class="nav-link">
+             <li class="active"><a href="#">Home</a></li>
+             <li><a href="#car-hire">Car Hire</a></li>
+             <li><a href="#enquiry">Enquiry</a></li>
+             <li class="ctn"><a href="#contact">contact</a></li>
+         </ul>
+         <img src="/img/menu-btn.png" alt="menu button" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h1>Vintage Car For Hire</h1>
+            <div class="line"></div>
+            <h2>Ride your dream vintage car</h2>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <section id="car-hire" class="for-hire">
+        <div class="title">
+            <h2>Car for Hire</h2>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="/img/car1.jpg" alt="car1">
+                <h4>Sport Series</h4>
+                <p>See our sport car series. Ride the fastest vintage car of your dream</p>
+                <a href="#" class="ctn">See More</a>
+            </div>
+            <div class="col">
+                <img src="/img/car2.jpg" alt="car2">
+                <h4>Classic Series</h4>
+                <p>Our wide range Classic Series  car will suite your everyspecial occasion  </p>
+                <a href="#" class="ctn">See More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="promotion">
+        <div class="row">
+            <div class="col content-col">
+                <h2>Promotion</h2>
+                <div class="line"></div>
+                <p>Long term hire or multiple car hire we can offer special promotion for you</p>
+                <p>Click to see more or please contact us for mopre details</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="/img/car3.jpg" alt="">
+                    <img src="/img/car4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+    <div id="enquiry" class="enquiry">
+    <h2>Enquiry</h2>
+    <div class="line"></div>
+        <p>Please fill in your enquiry below</p>
+        <div class="form">
+            <form action="https://formsubmit.co/70c076228f1cb9c808028667a3dfc7f7" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="name">
+            
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" placeholder="email address">
+
+                <label for="phone">Contact number</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="contact number">
+
+                <div class="choose-car ">
+                    <label for="cars">Choose a car:</label>
+                        <select name="cars" id="cars">
+                            <option value="Please select the car">Please select the car</option>
+                            <option value="Sport Seriew">Sport Seriew</option>
+                            <option value="Classic Series">Classic Series</option>
+                            <option value="Others">Others</option>
+                        </select>
+                </div><br>
+            
+                <label for="subject">Enquiry details</label>
+                <textarea id="subject" name="subject" placeholder="Please leave your note" style="height:200px"></textarea>
+            
+                <a href="#" class="ctn">Submit</a>
+            </form>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+        <div id="contact">
+            <h2>Contact Us</h2>
+            <div class="line"></div> 
+                <p>Siri Vintage Car Hire</p>
+                <p>Hours (AEST): Mon - Fri 7.30am - 7pm, Sat - Sun 8am - 5pm</p>
+                <p>Phone Number: +61 999 9999</p>
+                <p>Email: VintageCar@catmail.com</p>
+                <p>Address:1 Kitty lane, Cat Heaven NSW 2000</p>
+                    
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/divi-discount/"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">google map code</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+        </div>
+        <div class="back-to-top">
+            <a href="#" class="ctn">back to the top</a>
+        </div>
+            <section class="copyright">
+            <div>
+                <p>&copy;copyright Siri Vintage Car Hire 2021</p>
+            </div>
+        </section>   
+    </footer>
+</body>
+</html>
