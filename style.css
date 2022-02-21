@@ -85,7 +85,7 @@ ul {
 header {
     width: 100vw;
     height: 100vh;
-    background-image: url(/img/bg3.jpg);
+    background: url(./img/bg3.jpg);
     background-size: cover;
     background-position: bottom;
     display: flex;
@@ -138,8 +138,8 @@ header {
     display: none;
 }
 /* Car hire */
-section{
-    width: 100%;
+.for-hire {
+    width: 80%;
     margin: 5rem auto;
 }
 
@@ -183,7 +183,8 @@ section{
 
 /* promotion */
 .promotion{
-    margin: 8rem 1rem;
+    margin: 8rem auto;
+    width: 80%;
 }
 
 .promotion .line{
@@ -249,7 +250,7 @@ section{
 }
 /* the actual form */
 form {
-    width: 70%; 
+    width: 50%; 
 }
 
 input, select, textarea {
@@ -342,5 +343,10 @@ input, select, textarea {
 
     #contact p{
         font-size: 1rem;
-      }
+    }
+
+    form {
+        width: 70%; 
+    }
+
 }
