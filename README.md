@@ -1,10 +1,9 @@
 
 # Project Description
-Vintage Car Hire Landing page
+Vintage Car Hire landing page.
 This is one of the very first webpage created as part of the assessment of the HTML and CSS course with Generation Australia.
+Created with HTML and CSS
  
-
-
 
 
 
