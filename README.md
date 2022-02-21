@@ -9,7 +9,7 @@ Created with HTML and CSS
 
 ## Authors
 
-- [Siri Wisessiri](https://github.com/SiriratWisessiri)
+- [Sirirat Wisessiri](https://github.com/SiriratWisessiri)
 
 
 
