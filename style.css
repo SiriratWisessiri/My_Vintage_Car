@@ -10,6 +10,11 @@ body, html {
 
 }
 
+:root{
+    --pink: rgb(248, 152, 200);
+    --blue: rgb(44, 78, 114);
+}
+
 h1, h2, h3 ,h4, h5, h6 {
     font-family:'Satisfy', cursive;
 }
@@ -26,31 +31,8 @@ p{
     font-size: 1.5rem;
 }
 
-
-:root{
-    --pink: rgb(248, 152, 200);
-    --blue: rgb(44, 78, 114);
-}
-
 .ctn:hover {
     color:var(--blue)
-}
-
-
-header {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(/img/bg3.jpg);
-    background-size: cover;
-    background-position: bottom;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-.logo{
-    color: var(--blue);
 }
 
 img {
@@ -65,9 +47,6 @@ a{
     justify-content: flex-start; */
 }
 
-.navbar a:hover{
-    text-decoration: underline;
-}
  /* Nav bar */
 .navbar {
     display: flex;
@@ -79,6 +58,10 @@ a{
     padding: 20px;
     color: whitesmoke;
     font-size: 1.2rem;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
 }
 
 ul {
@@ -99,6 +82,21 @@ ul {
 }
 
 /* header */
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/img/bg3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    color: var(--blue);
+}
+
 .header-content {
     margin-top: 7rem;
     color: whitesmoke;
@@ -172,7 +170,6 @@ section{
 
 .for-hire .ctn{
     margin-top: 1.5rem;
-
 }
 
 .col h4 {
@@ -250,11 +247,9 @@ section{
     color: whitesmoke;
     text-align: left;
 }
-
 /* the actual form */
 form {
-    width: 70%;
-    
+    width: 70%; 
 }
 
 input, select, textarea {
@@ -266,38 +261,39 @@ input, select, textarea {
     margin-bottom: 1.5rem;
   }
 
-  /* footer */
-  #contact{
+/* footer */
+#contact{
    margin: 3rem;
    line-height: 3rem;
    font-size: 0.5rem;
   }
 
-  #contact p{
+#contact p{
     font-size: 1.2rem;
   }
 
-  #contact h2{
+#contact h2{
       text-align: center;
   }
   
-  .back-to-top {
+.back-to-top {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 15px;
   }
 
-  .back-to-top .ctn{
+.back-to-top .ctn{
       width: 90%;
       text-align: center;
   }
 
-  .copyright p{
+.copyright p{
       text-align: center;
       font-size: 0.8rem;
   }
 
+/* Media*/
 @media(max-width:800px){
     .menu-btn{
         display: block;
