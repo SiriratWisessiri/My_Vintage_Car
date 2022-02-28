@@ -160,16 +160,15 @@ header {
     flex-direction: column;
     align-items: center;
 }
-.row .col img {
-    width: 20rem;
-    box-shadow: 3px 3px 3px lightgrey;
-}
 
-.row .col img:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: 0.2s ease-out;
-    
+/* .row .col img {
+    width: 20rem;
+} */
+
+.carousel-inner img{
+    width: 30rem;
+    border-radius: 10px;
+    margin-top: 2rem;
 }
 
 .for-hire .row {
@@ -186,7 +185,7 @@ header {
 }
 
 .col p {
-    padding: 0px 30px;
+    padding: 0px 20px;
 }
 
 /* promotion */
@@ -216,6 +215,13 @@ header {
 .image-gallery img {
     width: 300px;
     margin: 10px;
+    box-shadow: 3px 3px 3px lightgrey;
+}
+
+.image-gallery img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.2s ease-out;
 }
 
 .promotion p {
@@ -252,7 +258,7 @@ header {
     justify-content: center;
     margin-top: 2rem;
     background-color: var(--blue);
-    height: 43rem;
+    height: 47rem;
     color: whitesmoke;
     text-align: left;
 }
@@ -363,5 +369,12 @@ margin-top: 2rem;
 
     form {
         width: 70%; 
+    }
+
+    .carousel-inner img{
+        padding-left: 5rem;
+        padding-right: 3.2rem;
+        border-radius: 10px;
+
     }
 }
